@@ -1,0 +1,23 @@
+
+<html>
+<head>
+<title>script</title>
+</head>
+<body>
+ enter your first name 
+<input type="text" id="firstname" onkeyup="myKeyUpFunction()" onfocus="yves()">
+<p>my first name is :<span id="test"></span></p>
+<script>
+function myKeyUpFunction() {
+var input= document.getElementById("firstname").value;
+document.getElementById("test").innerHTML= input;
+}
+function yves() {
+var input= document.getElementById("firstname");
+input.onfocus= input.style.background="green"
+}
+
+
+</script>
+</body>
+</html>

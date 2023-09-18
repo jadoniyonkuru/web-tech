@@ -1,0 +1,43 @@
+
+
+
+
+
+   
+.allimage{
+    display: flex;
+    justify-content: space-between;
+}
+.container-pic{
+    width: 93%;
+    height: 350px;
+    background-color: rgb(37, 4, 114);
+    border-radius: 10px;
+    margin-top: 20PX;
+    margin-left: 20PX;
+    
+    
+}
+.picture{
+    width: 93%;
+    height: 250px;
+    background-color: #ffffff1f;
+    margin-top: 5px;
+   margin-left: 5px;
+   border-radius: 10px;
+   justify-content: space-between;
+}
+.price{
+    width: 93%;
+    height: 30px;
+background-color: rgba(150, 167, 167, 0.404);
+margin-left: 30px;
+margin-top: 5px;
+}
+.product-name{
+    width: 93%;
+    height: 30px;
+    background-color: rgba(150, 167, 167, 0.76);
+    margin-left: 30px;
+    margin-top: 5px;
+}
